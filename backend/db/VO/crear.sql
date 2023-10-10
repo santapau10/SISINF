@@ -1,4 +1,4 @@
-CREATE TABLE Usuario (
+ CREATE TABLE Usuario (
     idUser SERIAL PRIMARY KEY,
     nombreUsuario VARCHAR NOT NULL UNIQUE,
     foto VARCHAR,
